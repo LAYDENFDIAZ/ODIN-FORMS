@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="flex root-container">
+      <div class="bg">
+        <div class="logo-container">
+          <div class="logo-background">
+            <img src="./odin-lined.png" class="logo" />
+            <h1>ODIN</h1>
+          </div>
+        </div>
+        <div class="attribution">
+          <p>
+            Photo by
+            <a href="#" target="_blank"> Halie West </a>
+            on
+            <a href="#" target="_blank"> Unsplash </a>
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="upper-content">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up now
+            to get started.
+          </p>
+  
+          <p class="header2">You know you want to.</p>
+          <div></div>
+          <div class="form-container">
+            <h2>Let's do this!</h2>
+            <form>
+              <div class="flex">
+                <div class="input-container">
+                  <label for="first_name">First Name</label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="last_name"> Last Name </label>
+                  <input
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="flex">
+                <div class="input-container">
+                  <label for="first_name">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="email"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="last_name"> Phone Number </label>
+                  <input
+                    type="text"
+                    id="Phone_Number"
+                    name="Phone Number"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="flex">
+                <div class="input-container">
+                  <label for="first_name">Password</label>
+                  <input
+                    type="password"
+                    id="Password"
+                    name="Password"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="last_name"> Confirm Password </label>
+                  <input
+                    type="password"
+                    id="Confirm_Password"
+                    name="Confirm Password"
+                    placeholder="Confirm Password"
+                    required
+                    onkeyup="check()"
+                  />
+                  <span id='message'></span>
+                </div>
+        </div>
+      
+            </div>
+            <div class="bottom-content">
+              <div class="button_container">
+                <button>Create Account</button>
+              </div>
+              <h6>Already have an account? <span>Log in</span></h6>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

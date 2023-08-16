@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  border: solid 1px blue;
+}
+
+.container {
+  display: flex;
+}
+
+.form_left {
+  width: 33%;
+  height: 100vh;
+  background: url(photo-1585202900225-6d3ac20a6962.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form_right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+form {
+}
